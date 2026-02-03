@@ -7,7 +7,7 @@ make
 make install
 
 ## Usage
-kilo <filename>
+kilo </filename/>
 
 ## NOTE:
 After installation, ensure ~/.local/bin is in your PATH.
