@@ -1,6 +1,5 @@
 CC = cc
 CFLAGS = -Wall -Wextra -pedantic -std=c99
-
 TARGET = kilo
 
 all: $(TARGET)
