@@ -1,5 +1,4 @@
-# kilo
-A Terminal based text editor
+# Kilo — Terminal Text Editor
 
 ## Build
 make
@@ -8,4 +7,5 @@ make
 make install
 
 ## Usage
-kilo filename.txt
+kilo <filename>
+
