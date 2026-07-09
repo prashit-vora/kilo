@@ -2,7 +2,7 @@
 
 > Built in C. No libraries. No bloat. Just under a thousand lines.
 
-Kilo is a terminal-based text editor that started as a fork of [antirez/kilo](https://github.com/antirez/kilo) — the legendary editor written in under 1K lines of C. This version is stripped down, cleaned up, and built from the ground up as a learning project.
+Kilo is a terminal-based text editor that started as a fork of [antirez/kilo](https://github.com/antirez/kilo) - the legendary editor written in under 1K lines of C. This version is stripped down, cleaned up, and built from the ground up as a learning project.
 
 It doesn't depend on ncurses, Lua, or anything fancy. Just raw VT100 escape sequences and POSIX syscalls.
 
@@ -67,7 +67,6 @@ export PATH="$HOME/.local/bin:$PATH"
 kilo somefile.c
 ```
 
-If the file exists, it opens. If it doesn't, that's fine too — start typing and save when you're done.
 
 ---
 
@@ -80,7 +79,6 @@ This project was my way of understanding:
 - How to read and write files at the syscall level
 - What goes into building something usable from scratch
 
-No frameworks. No dependencies. Just C, a terminal, and some stubbornness.
 
 ---
 
@@ -118,10 +116,6 @@ Raw throughput clocks in at **~104 MB/s** for reads and **~800 MB/s** for writes
 
 - [antirez/kilo](https://github.com/antirez/kilo) — the original
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/) — the tutorial that walks through it line by line
-- A bunch of late nights and segfaults
 
 ---
 
-## License
-
-BSD 2-Clause — same as the original. Go build stuff with it.
